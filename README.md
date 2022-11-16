@@ -1,34 +1,9 @@
-# Boas-vindas ao repositório do Job Insights!
+# 	:woman_technologist: Project Job Insights
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Esse projeto contém uma série de informações sobre o que eu aprendi aqui na Trybe ao longo  do curso de desenvolvimento web da Trybe. <br>
+Neste projeto foram implementadas análises a partir de um conjunto de dados sobre empregos. As implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também tem testes para a implementação de uma análise de dados. 
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
-
-<details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
-
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-  <p align="center">
-    <img src="/.images/job.png" alt="Logo Aplicação" width="300"/>
-  </p>
-  
-  Neste projeto você implementará análises a partir de um conjunto de dados sobre empregos. Suas implementações serão incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Você também terá a oportunidade de escrever testes para a implementação de uma análise de dados. Por fim, como bônus, você terá o desafio de escrever uma rota e view para um recurso novo usando Flask!
-
-  Os dados foram extraídos do site [Glassdoor](https://www.glassdoor.com.br/) e obtidos através do [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data), uma plataforma disponiblizando conjuntos de dados para cientistas de dados.
-
-  🚵 Habilidades a serem trabalhadas:
+🚵 Habilidades trabalhadas:
   <ul>
     <li>Utilizar o terminal interativo do Python.</li>
     <li>Utilizar estruturas condicionais e de repetição.</li>
@@ -41,94 +16,20 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   </ul>
 </details>
 
+## :rocket:Começando
+Esse projeto foi proposto pelo curso de desenvolvimento web da Trybe.
+### Desenvolvimento
+Esse projeto foi desenvolvido no bloco de back-end e foi possível treinar a linguagem JavaScript, utilizado o React, Context-API, CRUD, CSS, Bootstrap, token JWT.
+### Commits
+Os commits foram feitos de acordo com os requisitos finalizados.
+### Branch
+Todo o projeto foi feita em branchs de cada requisito. Após finalizado cada requisito, a branch foi mergeada para a principal do grupo 'main-group-16-realese'.
+### Antes de rodar o projeto, crie o ambiente virtual e instale as dependências
+- `python3 -m venv .venv && source .venv/bin/activate`<br>
+- `python3 -m pip install -r dev-requirements.txt`
+### Estrutura do projeto
+Este repositório já contém um template com a estrutura de diretórios e arquivos, tanto de código quanto de teste criados. Veja abaixo:
 <details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual;
-  * Serão `2` dias de projeto;
-  * Data para entrega final do projeto: `28/10/2022 14:00`.
-
-</details>
-
-# Orientações
-<details>
-  <summary><strong>⚠ Antes de começar a desenvolver</strong></summary><br />
-
-  1. Clone o repositório
-
-  - Use o comando: `git clone git@github.com:tryber/sd-019-a-project-job-insights.git`.
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-019-a-project-job-insights`
-
-  2. Crie o ambiente virtual para o projeto
-
-  - `python3 -m venv .venv && source .venv/bin/activate`
-  
-  3. Instale as dependências
-
-  - `python3 -m pip install -r dev-requirements.txt`
-  
-  4. Crie uma branch a partir da branch `main`
-
-  - Verifique que você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-job-insights`
-
-  5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-    - Exemplo:
-      - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-      - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-    - Exemplo:
-      - `git commit -m 'iniciando o projeto job-insights'` (fazendo o primeiro commit)
-      - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-job-insights`
-
-  7. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-019-a-project-job-insights/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Coloque um título para a sua _Pull Request_
-    - Exemplo: _"Cria tela de busca"_
-  - Clique no botão verde _"Create pull request"_
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-019-a-project-job-insights/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-  - Faça `commits` das alterações que você fizer no código regularmente
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
-<details>
-  <summary><strong>🧱 Estrutura do Projeto</strong></summary><br />
-  Este repositório já contém um template com a estrutura de diretórios e arquivos, tanto de código quanto de teste criados. Veja abaixo:
-
   ```
   Legenda:
   🔸Arquivos que não podem ser alterados
@@ -192,53 +93,8 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
 </details>
 
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-  Para garantir a qualidade do código, vamos utilizar neste projeto o linter `Flake8`.
-  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-  e de fácil manutenção! Para rodá-lo localmente no projeto, execute o comandos abaixo:
-
-  ```bash
-  python3 -m flake8
-  ```
-
-  ⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.
-  ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-</details>
-
-<details>
-  <summary><strong>🏕️ Ambiente Virtual</strong></summary><br />
-  O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
-
-  1. **criar o ambiente virtual**
-
-  ```bash
-  $ python3 -m venv .venv
-  ```
-
-  2. **ativar o ambiente virtual**
-
-  ```bash
-  $ source .venv/bin/activate
-  ```
-
-  3. **instalar as dependências no ambiente virtual**
-
-  ```bash
-  $ python3 -m pip install -r dev-requirements.txt
-  ```
-
-  Com o seu ambiente virtual ativo, as dependências serão instaladas neste ambiente.
-  Quando precisar desativar o ambiente virtual, execute o comando "deactivate". Lembre-se de ativar novamente quando voltar a trabalhar no projeto.
-
-  O arquivo `dev-requirements.txt` contém todas as dependências que serão utilizadas no projeto, ele está agindo como se fosse um `package.json` de um projeto `Node.js`.
-</details>
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
-  Para executar os testes certifique-se de que você está com o ambiente virtual ativado.
+### Testes
+Para executar os testes certifique-se de que você está com o ambiente virtual ativado.
 
   <strong>Executar os testes</strong>
 
@@ -276,72 +132,19 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   python3 -m pytest tests/nomedoarquivo.py::test_nome_do_teste
   ```
 
-  Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+### Autores
+Esse foi um projeto individual.
+### Ferramentas usadas
+Foi usado Visual Studio Code, além do Trello que auxiliou na organização das tarefas.
 
-  <p align="center">
-    <img src="/.images/flask-logo.png" alt="Logo Flask" width="200"/>
-  </p>
+## :footprints:Requisitos
+### Metodologia usada
+No trabalho do desenvolvimento de software a gente sempre tem prazos, muitas vezes os prazos são apertados.<br>
+Por outro lado, eu não quero criar algo que não entendo perfeitamente, como também fazer códigos rápidos pode levar a erros que podem demorar muito pra corrigir.<br>
+Por isso, usei e sempre uso o método Baby Steps, que é uma estratégia de abordar o desafio passo à passo, defensivamente.<br>
+Baby steps é um termo em inglês que quer dizer passos de bebê. Refere-se a fazer as coisas, quaisquer que sejam, devagar, com calma, passo a passo.
 
-  Além dos testes com o Pytest, você pode (e vai ser bem bacana) rodar a aplicação flask para visualizar no navegador o resultado do desenvolvimento das funções.
-  Para isso, digite o comando `flask run`, e acesse o site gerado pelo Flask em `http://localhost:5000`. No começo do desenvolvimento, você verá que muitas coisas não funcionam, mas conforme você for implementando os requisitos, perceberá que a aplicação web começa a utilizar suas implementações e passa a ganhar vida.
-
-  <p align="center">
-    <img src="/.images/sistema.png" alt="Tela Aplicação" width="800"/>
-  </p>
-
-</details>
-
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-019-a`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Agora que você finalizou os requisitos, chegou a hora de mostrar ao mundo que você aprendeu algo novo! 🚀
-
-  Siga esse [**guia que preparamos com carinho**](https://app.betrybe.com/course/career/personal_portfolio/utilizando-projetos-feitos-na-trybe/d7ca7f50-0a8f-4b10-b360-cfcb454d832a) para disponibilizar o projeto finalizado no seu GitHub pessoal.
-
-  Esse passo é super importante para ganhar mais visibilidade no mercado de trabalho, mas também é útil para manter um back-up do seu trabalho.
-
-  E você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-# Requisitos Obrigatórios
-
-## 1 - Implemente a função `read`
+#### :footprints:Requisito 1 - Implemente a função `read`
 > **Implemente em:** src/jobs.py
 
 Para começarmos a processar os dados, devemos antes carregá-los em nossa aplicação. Esta função será responsável por abrir o arquivo CSV e retornar os dados no formato de uma lista de dicionários.
@@ -391,7 +194,7 @@ Bernardo,Santos,999999
 - Nos dicionários retornados pela função, as chaves correspondem aos cabeçalhos do arquivo
 </details>
 
-## 2 - Implemente a função `get_unique_job_types`
+#### :footprints:Requisito 2 - Implemente a função `get_unique_job_types`
 > **Implemente em:** `src/insights.py`
 
 Agora que temos como carregar os dados, podemos começar a extrair informação deles. Primeiro, vamos identificar quais tipos de empregos existem.
@@ -412,7 +215,7 @@ Agora que temos como carregar os dados, podemos começar a extrair informação 
 - A função desconsidera valores vazios
 </details>
 
-## 3 - Implemente a função `get_unique_industries`
+#### :footprints:Requisito 3 - Implemente a função `get_unique_industries`
 > **Implemente em:** `src/insights.py`
 
 Da mesma forma, agora iremos identificar quais indústrias estão representadas nesse conjunto de dados.
@@ -432,7 +235,7 @@ Da mesma forma, agora iremos identificar quais indústrias estão representadas 
 - A função retorna os valores corretos
 </details>
 
-## 4 - Implemente a função `get_max_salary`
+#### :footprints:Requisito 4 - Implemente a função `get_max_salary`
 > **Implemente em:** `src/insights.py`
 
 Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora encontrar o maior valor de todas as faixas.
@@ -451,7 +254,7 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 - A função retorna o valor correto
 </details>
 
-## 5 - Implemente a função `get_min_salary`
+#### :footprints:Requisito 5 - Implemente a função `get_min_salary`
 > **Implemente em:** `src/insights.py`
 
 Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora encontrar o menor valor de todas as faixas.
@@ -470,7 +273,7 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 - A função retorna o valor correto
 </details>
 
-## 6 - Implemente a função `filter_by_job_type`
+#### :footprints:Requisito 6 - Implemente a função `filter_by_job_type`
 <p align="center">
   <img src="/.images/filter.png" alt="Contagem" width="400"/>
 </p>
@@ -495,7 +298,7 @@ Os empregos estão listados em um aplicativo web. Para permitir que a pessoa usu
 - A função retorna uma lista vazia para `job_types` ausentes nos `jobs` recebidos
 </details>
 
-## 7 - Implemente a função `filter_by_industry`
+#### :footprints:Requisito 7 - Implemente a função `filter_by_industry`
 > **Implemente em:** `src/insights.py`
 
 Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos precisar implementar esse filtro também.
@@ -516,7 +319,7 @@ Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos
 - A função retorna uma lista vazia para `job_types` ausentes nos `jobs` recebidos
 </details>
 
-## 8 - Implemente a função `matches_salary_range`
+#### :footprints:Requisito 8 - Implemente a função `matches_salary_range`
 > **Implemente em:** `src/insights.py`
 
 O aplicativo vai precisar filtrar os empregos por salário também. Como uma função auxiliar, implemente `matches_salary_range` para conferir que o salário procurado está dentro da faixa salarial daquele emprego. Vamos aproveitar também para conferir se a faixa salarial faz sentido -- isto é, se o valor mínimo é menor que o valor máximo.
@@ -543,7 +346,7 @@ O aplicativo vai precisar filtrar os empregos por salário também. Como uma fun
 - A função lança um `ValueError` se as chaves `min_salary` ou `max_salary` estiverem ausentes no dicionário
 </details>
 
-## 9 - Implemente a função `filter_by_salary_range`
+#### :footprints:Requisito 9 - Implemente a função `filter_by_salary_range`
 > **Implemente em:** `src/insights.py`
 
 Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos usar a função auxiliar implementada no requisito anterior -- tomando o cuidado de descartar os empregos que apresentarem faixas salariais inválidas.
@@ -566,7 +369,7 @@ Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos
 - Empregos onde o valor de `min_salary` for maior que o valor de `max_salary` devem ser ignorados
 </details>
 
-## 10 - Implemente um teste para a função `count_ocurrences`
+#### :footprints:Requisito 10 - Implemente um teste para a função `count_ocurrences`
 > **Implemente em:** `tests/counter/test_counter.py`
 
   <p align="center">
@@ -604,7 +407,7 @@ O nome deste teste **deve** ser `test_counter`, e ele deve garantir que atenda e
 
 </details>
 
-## 11 - Implemente um teste para a função `read_brazilian_file`
+#### :footprints:Requisito 11 - Implemente um teste para a função `read_brazilian_file`
 > **Implemente em:** `tests/brazilian/test_brazilian_jobs.py`
 
 A empresa cliente analisa relatórios em inglês, porém agora ela quer expandir seus negócios aqui para o Brasil e deseja analisar relatórios em português também. No entanto, as chaves do `dict` que usamos pra organizar os dados **devem** continuar em inglês. Ou seja: para gerar o relatório, deveremos ler as chaves em português e traduzi-las para inglês para povoar os nossos dados.
@@ -642,73 +445,4 @@ O nome deste teste **deve** ser `test_brazilian_jobs`, e ele deve garantir que a
 - O teste rejeita implementações que não retornam as chaves traduzidas corretamente.
 - O teste aprova implementações corretas.
 - Se o teste não é um falso positivo, ou seja, teste que passa sem realmente testar o código.
-</details>
-
-## 12 - Implemente um teste para a função `sort_by`
-> **Implemente em:** `tests/sorting/test_sorting.py`
-
-Por fim, espera-se que a pessoa usuária possa escolher um critério de ordenação para exibir os empregos. Já temos uma implementação para essa ordenação em `src/sorting.py`, mas queremos ter certeza de que ela funciona e, principalmente, que não deixará de funcionar conforme vamos implementando novos recursos. Precisamos então escrever um *teste*!
-
-Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função funciona segundo esta especificação:
-
-- A função `sort_by` recebe dois parâmetros:
-  - `jobs` uma lista de dicionários com os detalhes de cada emprego;
-  - `criteria` uma string com uma chave para ser usada como critério de ordenação.
-- O parâmetro `criteria` deve ter um destes valores: `min_salary`, `max_salary`, `date_posted`
-- A ordenação para `min_salary` deve ser crescente, mas para `max_salary` ou `date_posted` devem ser decrescentes.
-- Os empregos que não apresentarem um valor válido no campo escolhido para ordenação devem aparecer no final da lista.
-
-<details>
-  <summary>
-    <b>📌Como seu teste é avaliado</b>
-  </summary>
-  O <strong>teste da Trybe</strong> irá avaliar se o <strong>seu teste</strong> está passando conforme seu objetivo e confirmará se ele está falhando em alguns casos que deve falhar.
-  Para estes testes que esperemos que falhe, o requisito será considerado atendido quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
-</details>
-
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-
-- O teste rejeita implementações que não ordenam corretamente.
-- O teste rejeita implementações que não ordenam em ordem crescente quando o critério é `min_salary`.
-- O teste aprova implementações corretas.
-- Se o teste não é um falso positivo, ou seja, teste que passa sem realmente testar o código.
-</details>
-
----
-
-# Requisitos Bônus
-
-## 13 - (`Bônus`) Implemente a página de um job
-> **Implemente em:** `src/routes_and_views.py`
-
-Para fechar com chave de ouro, que tal testar o quanto você consegue aprender de Flask apenas vendo como fizemos as páginas de `index` e de `jobs`, e tentar criar uma página que irá exibir todas as informações de um job em específico?
-
-- A função deve ser decorada com a rota `/job/<index>`.
-- A função deve receber um parâmetro `index`.
-- A função deve chamar a `read` para ter uma lista com todos os jobs.
-- A função deve chamar a `get_job`, declarada no arquivo `src/more_insights.py`, para selecionar um job específico pelo `index`.
-- A função deve renderizar o template `job.jinja2`, passando um parâmetro `job` contendo o job retornado pela `get_job`.
-
-<details>
-  <summary>
-    <b>✍️ Teste manual</b>
-  </summary>
-  Após criar a view, cheque se, na página que lista os jobs, aparecem links para jobs específicos nos números que identificam cada job. Ao clicar em um destes links, você deve ser levado a uma página que lista todas as informações do job.
-</details>
-
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-
-- A rota `/job/<index>` existe.
-- A view `job` existe no arquivo `src/routes_and_views.py` e recebe o parâmetro `index` (e somente ele).
-- A página de cada um dos jobs deve retornar o status code 200.
-- A página de um job específico (escolhido previamente) deve retornar o HTML exato esperado.
-
 </details>
