@@ -19,11 +19,11 @@ Neste projeto foram implementadas análises a partir de um conjunto de dados sob
 ## :rocket:Começando
 Esse projeto foi proposto pelo curso de desenvolvimento web da Trybe.
 ### Desenvolvimento
-Esse projeto foi desenvolvido no bloco de back-end e foi possível treinar a linguagem JavaScript, utilizado o React, Context-API, CRUD, CSS, Bootstrap, token JWT.
+Esse projeto foi desenvolvido no bloco de ciências da computação. Foi meu primeiro projeto em Python.
 ### Commits
 Os commits foram feitos de acordo com os requisitos finalizados.
 ### Branch
-Todo o projeto foi feita em branchs de cada requisito. Após finalizado cada requisito, a branch foi mergeada para a principal do grupo 'main-group-16-realese'.
+Todo o projeto foi feita na branch juliana-oliveira-project-job-insigths.
 ### Antes de rodar o projeto, crie o ambiente virtual e instale as dependências
 - `python3 -m venv .venv && source .venv/bin/activate`<br>
 - `python3 -m pip install -r dev-requirements.txt`
